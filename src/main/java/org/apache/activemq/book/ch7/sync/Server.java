@@ -16,7 +16,7 @@ import org.apache.activemq.broker.BrokerService;
 
 public class Server implements MessageListener {
 
-	private String brokerUrl = "tcp://42.121.0.245:61616";
+	private String brokerUrl = "tcp://0.0.0.0:61616";
 	private String requestQueue = "requests";
 	
 	private BrokerService broker;
